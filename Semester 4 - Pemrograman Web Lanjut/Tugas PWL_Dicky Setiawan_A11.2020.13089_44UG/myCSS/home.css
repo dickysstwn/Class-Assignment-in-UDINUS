@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  background: #002d00;
+}
+
+header {
+  padding: 10px 100px;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.plantea-title {
+  transform: translate(50%, 100%);
+}
+
+.plantea-logo {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: -5%;
+  padding: 5px;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 500;
+  left: 0;
+  padding: 10px 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  list-style-type: none;
+  margin-left: 5px;
+  transform: translateY(100%);
+}
+
+header ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 6px 15px;
+  border-radius: 20px;
+}
+
+header ul li a:hover {
+  color: #03ac0e;
+}
+
+.title{
+    position: absolute; 
+    color: #ffffff  ;
+    top: 35%;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* top: 100px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: -1;
+}
+
+section img {
+  /* position: absolute; */
+  top: 15%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+/* MAIN */
+.plantea-card {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.plantea-content {
+  position: absolute;
+  color: #ffffff;
+  width: 200px;
+  height: 230px;
+  display: inline;
+  border-radius: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  margin: 10px 15px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../Asset/aglonemaRedChocin.jpg);
+  background-size: cover;
+  transition: transform 0.5s;
+  transform: translate(150%, -350%);
+}
+
+.plantea-card a{
+    width: 100%;
+    text-decoration: none;
+    padding-left: 40px;
+    color: #ffffff;
+}
+
+.plantea-card a:hover{
+    color: #0dd82f;
+}
+
+.plantea-card h5{
+    text-align: center;
+}
+
+.plantea-content2{
+    position: absolute;
+    color: #ffffff;
+    width: 200px;
+    height: 230px;
+    display: inline;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin: 10px 15px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../Asset/aglonemaRoDudAnjamani.jpg);
+    background-size: cover;
+    transition: transform 0.5s;
+    transform: translate(275%, -350%);
+  }
+
+  .plantea-content3{
+    position: absolute;
+    color: #ffffff;
+    width: 200px;
+    height: 230px;
+    display: inline;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin: 10px 15px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../Asset/aglonemaSnowWhiteRemaja.jpg);
+    background-size: cover;
+    transition: transform 0.5s;
+    transform: translate(400%, -350%);
+  }
+
+  .plantea-content4{
+    position: absolute;
+    color: #ffffff;
+    width: 200px;
+    height: 230px;
+    display: inline;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin: 10px 15px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../Asset/aglonemaSuksom.jpg);
+    background-size: cover;
+    transition: transform 0.5s;
+    transform: translate(150%, -225%);
+  }
+
+  .plantea-content5{
+    position: absolute;
+    color: #ffffff;
+    width: 200px;
+    height: 230px;
+    display: inline;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin: 10px 15px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../Asset/aglonemaSuperWhite.jpg);
+    background-size: cover;
+    transition: transform 0.5s;
+    transform: translate(275%, -225%);
+  }
+
+  .plantea-content6{
+    position: absolute;
+    color: #ffffff;
+    width: 200px;
+    height: 230px;
+    display: inline;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin: 10px 15px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../Asset/aglonemaVenus.jpg);
+    background-size: cover;
+    transition: transform 0.5s;
+    transform: translate(400%, -225%);
+  }
+
+  
