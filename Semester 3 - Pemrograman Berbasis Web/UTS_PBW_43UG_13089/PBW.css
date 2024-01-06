@@ -1,0 +1,139 @@
+body{
+  height: 100%;
+  margin: 0px auto;
+  /* background-color: #356e9a; */
+  /* background-image: radial-gradient(at 50% 100%,#e27da1,#846c98); */
+  color:black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: black;
+}
+
+.white-board{
+  margin: 0px;
+  margin-top: 17%;
+  width: 1000px;
+  height: 500px;
+  margin-left: 10%;
+  scrollbar-darkshadow-color: black ;
+  text-align: justify;
+}
+
+div.white-board h2{
+  margin-left: 42.5% ;
+  margin-bottom: 0px ;
+  margin-top: 8px ;
+}
+
+header{
+  height: 180px ;
+}
+
+.pembuka{
+text-align: center;
+}
+
+header .pembuka{
+    margin-top:0;
+    margin-bottom: 0;
+    padding-top: 0;
+    /* background-color: #ffd1b0; */
+    height: 300px;
+    /* -moz-text-decoration-color: black; */
+    color: white;
+}
+
+header .navigasi {
+    text-align: center;
+    align-content: center;
+    overflow: hidden;
+    background-color:black;
+}
+  
+header .navigasi a {
+    float: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+header .navigasi a:hover {
+    background-color: black;
+    color: darkgrey;
+}
+  
+body{
+    margin: 0px;
+    margin-top:0px ;
+    text-align: center;
+    background-image: url(double-bubble.png) ;
+    font-family: sans-serif;
+}
+
+div.white-board{
+  color: white;
+  float: justify;
+}
+
+div.gallery {
+  padding: 10px;
+  margin-left: 16px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  margin: 10px;
+   /* background-color: white; */
+
+   /* Mengatur width dengan persen dikurangi margin */
+   width: calc( 33.333% - 130px);
+}
+
+div.gallery h3{
+   margin: 0%;
+}
+
+div.gallery a.buy{
+  text-align: right;
+  color:greenyellow;
+  text-decoration: none;
+  align-self: flex-end;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 250px;
+  height: 400px;
+
+}
+
+div.desc {
+  margin: 0%;
+  font-size: 14px;
+  text-align: justify;
+  color: white;
+}
+div .mid{
+  /* align-items: center; */
+   margin-top: 5px;
+   width: 1250px;
+  height: 650px;
+   /* background-color: rgb(77, 25, 25); */
+   scrollbar-darkshadow-color: black ;
+   display: flex;
+   flex-flow: row wrap;
+  margin-left: 0%;
+}
+
+div.gallery a.buy{
+  color: darkgrey ;
+}
+
+div.gallery a.buy:hover{
+  color: white;
+  size: 14px;
+}
