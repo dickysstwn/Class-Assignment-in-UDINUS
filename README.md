@@ -16,7 +16,7 @@ This repository contains a summary of codes related to assignments and exams, bo
 ## 📊 Summary
 <p align="left">
 <a href="https://github.com/dickysstwn/Programming-Class-Assignment-in-UDINUS">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=dickysstwn&layout=compact&langs_count=8&theme=light"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=dickysstwn&layout=compact&langs_count=8&theme=dark"/>
 </a>
 </p>
 The graph is an overview of what programming languages I have used so far.
